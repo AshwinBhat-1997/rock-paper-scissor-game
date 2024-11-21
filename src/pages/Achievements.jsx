@@ -1,7 +1,12 @@
 import React from "react";
+import Header from "../components/Header";
 
 const Achievements = () => {
-  return <div>Achievements</div>;
+  return (
+    <main className="min-h-screen w-full">
+      <Header />
+    </main>
+  );
 };
 
 export default Achievements;
